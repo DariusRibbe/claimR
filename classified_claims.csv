@@ -1,0 +1,7 @@
+id,text,sentences,prev_sentence,next_sentence,context,identifier,class,distance
+1,This is the first sentence. Here is another one!,This is the first sentence.,,Here is another one!, This is the first sentence. Here is another one!,FALSE,FALSE,NA
+2,This is the first sentence. Here is another one!,Here is another one!,This is the first sentence.,R is great for data analysis.,This is the first sentence. Here is another one! R is great for data analysis.,FALSE,FALSE,NA
+3,R is great for data analysis. Machine learning is powerful.,R is great for data analysis.,Here is another one!,Machine learning is powerful.,Here is another one! R is great for data analysis. Machine learning is powerful.,analysis,FALSE,NA
+4,R is great for data analysis. Machine learning is powerful.,Machine learning is powerful.,R is great for data analysis.,We analyze text.,R is great for data analysis. Machine learning is powerful. We analyze text.,FALSE,NA,NA
+5,We analyze text. Sentences are extracted.,We analyze text.,Machine learning is powerful.,Sentences are extracted.,Machine learning is powerful. We analyze text. Sentences are extracted.,FALSE,NA,NA
+6,We analyze text. Sentences are extracted.,Sentences are extracted.,We analyze text.,,We analyze text. Sentences are extracted. ,FALSE,NA,NA

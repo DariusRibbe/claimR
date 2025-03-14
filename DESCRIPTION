@@ -1,0 +1,29 @@
+Package: claimR
+Title: An R Package for Identifying Representative Claims in Text
+Version: 1.2
+Authors@R: person("Darius", "Ribbe", email = "dariusribbe@gmail.com", role = c("aut", "cre"))
+Description: Provides functions to identify representative claims in text using various machine learning methods.
+Depends: R (>= 4.0.0)
+Imports:
+    stringr,
+    dplyr,
+    tidytext,
+    text2vec,
+    tidyr,
+    nnet,
+    e1071,
+    shiny,
+    shinyjs,
+    reticulate,
+    readr,
+    stopwords,
+    tm,
+    caret,
+    Matrix
+Suggests:
+    testthat,
+    roxygen2
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
